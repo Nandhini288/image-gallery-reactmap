@@ -1,0 +1,39 @@
+*{
+  margin: 0%;
+  top: 0%;
+}
+body{
+  margin: 5px;
+}
+h1{
+  text-align: center;
+  background-color: rgb(187, 202, 223);
+  color: rgb(102, 94, 94);
+}
+p{
+  font-weight: bold;
+}
+img{
+  width: 250px;
+  height: 250px;
+}
+.gallery{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 10px;
+  background-color: rgb(227, 233, 233);
+}
+.image{
+  border: solid black 2px;
+  text-align: center;
+  display: inline-block;
+  padding: 5px;
+  margin: 10px;
+  cursor: pointer;
+}
+.image:hover{
+  border-color: rgb(0, 0, 0);
+  background-color: rgb(83, 82, 82);
+  color: white;
+}
